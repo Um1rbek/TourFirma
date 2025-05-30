@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contactsection = () => {
   return (
-    <section className="bg-gray-900 text-white py-10">
+    <section className="bg-gray-900 text-white py-10 pt-16">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
         Свяжитесь с нами через Telegram
       </h1>

@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
 
   return (
-     <nav className="bg-gray-900 text-white  w-full z-10 py-2">
+     <nav className="  pt-16  bg-gray-900 text-white  w-full z-10 py-2">
       <div className="container mx-auto flex justify-between items-center px-6">
         <div className="flex space-x-4 md:space-x-8">
           <a href="#home" className="nav-link text-base">Главная</a>

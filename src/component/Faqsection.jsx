@@ -27,7 +27,7 @@ const Faqsection = () => {
   };
 
   return (
-    <section className="bg-gray-900 text-white py-10">
+    <section className="bg-gray-900 text-white py-10 pt-16">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-12" data-aos="zoom-in">
         Часто задаваемые вопросы
       </h1>

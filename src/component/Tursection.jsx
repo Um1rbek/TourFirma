@@ -54,7 +54,7 @@ const Tursection = () => {
   }, []);
 
   return (
-    <section className="bg-gray-900 text-white py-10">
+    <section className="bg-gray-900 text-white py-10 pt-16">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">Наши услуги</h1>
       <ul className="relative max-w-6xl mx-auto">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-transparent via-pink-600 to-transparent bg-[length:2px_20px] z-0" />
