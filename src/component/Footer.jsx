@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-<header className="bg-gray-900 text-white h-[180px]">
+<header className="bg-gray-900 text-white h-[180px] w-full">
   <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
     <h1 className="text-2xl font-bold">Tour Farm</h1>
 

@@ -19,17 +19,19 @@ function App() {
 
   return (
     <>
-     <Topnav/>
-      <Nav/>
-      <Slider/>
-      <Tursection/>
-      <Newsection/>
-      <City/>
-      <Contactsection/>
-      <Faqsection/>
-      <Photo/>
-      <People/>
-      <Footer/>
+      <div className="bg-gray-900 min-h-screen w-full">
+       <Topnav/>
+        <Nav/>
+        <Slider/>
+        <Tursection/>
+        <Newsection/>
+        <City/>
+        <Contactsection/>
+        <Faqsection/>
+        <Photo/>
+        <People/>
+        <Footer/>
+      </div>
 
     </>
   )

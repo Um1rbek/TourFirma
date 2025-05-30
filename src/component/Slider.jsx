@@ -32,13 +32,13 @@ const Slider = () => {
 
   return (
     <div
-      className="w-full h-screen bg-cover bg-center flex items-center justify-center px-4 transition-all duration-1000"
+      className="w-full h-screen bg-cover bg-center flex items-center justify-center px-4 transition-all duration-1000 w-full"
       style={{
         backgroundImage: `url(${slide.image})`,
       }}
     >
       <div className="bg-black bg-opacity-60 p-8 rounded-xl text-center max-w-2xl text-white">
-        <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-4">
+        <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-4 ">
           {slide.title}
         </h1>
         <p className="text-lg text-gray-300">{slide.description}</p>

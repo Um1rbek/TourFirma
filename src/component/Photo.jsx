@@ -25,7 +25,7 @@ const tourItems = [
 
 const Photo = () => {
   return (
-    <section className="bg-gray-900 text-white py-10">
+    <section className="bg-gray-900 text-white py-10 w-full">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-12" data-aos="zoom-in">
         Наши туры в фотографиях
       </h1>
